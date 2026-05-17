@@ -7,7 +7,7 @@ const cases = [
     ambiente: 'Comercial de alto tránsito',
     trabajo: 'Nivelación y pegado profesional',
     resultado: 'Base firme e inamovible',
-    img: '/Piso dryback.png'
+    img: '/Piso%20dryback.png'
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const cases = [
     ambiente: 'Terraza perimetral',
     trabajo: 'Estructuración y fijación oculta',
     resultado: 'Resistencia a la intemperie',
-    img: '/deck wpc opcion oscura y fria.png'
+    img: '/deck%20wpc%20opcion%20oscura%20y%20fria.png'
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const cases = [
     ambiente: 'Interior residencial',
     trabajo: 'Colocación flotante y zócalos',
     resultado: 'Acabado cálido y continuo',
-    img: '/piso laminado.png'
+    img: '/piso%20laminado.png'
   }
 ];
 
