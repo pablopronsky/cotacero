@@ -1,7 +1,7 @@
 'use client';
 import { motion } from 'motion/react';
 import { contactData } from '@/data/contact';
-import { ArrowDownRight } from 'lucide-react';
+import { ArrowDownRight, MapPin } from 'lucide-react';
 import Image from 'next/image';
 
 export function Hero() {
@@ -27,12 +27,12 @@ export function Hero() {
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             >
               <div className="flex items-center gap-4 mb-8">
-                <span className="w-16 h-[1px] bg-brand-copper relative">
-                  <span className="absolute top-1/2 right-0 -translate-y-1/2 w-1.5 h-1.5 bg-brand-copper" />
-                </span>
-                <span className="text-[10px] uppercase tracking-[0.24em] text-brand-copper font-bold">
-                  Método Cota Cero
-                </span>
+                <div className="inline-flex items-center gap-2 border border-brand-graphite/20 dark:border-brand-bone/20 rounded-full px-4 py-1.5">
+                  <MapPin className="w-3.5 h-3.5 text-brand-graphite dark:text-brand-bone opacity-70" />
+                  <span className="text-[11px] font-medium tracking-[0.02em] text-brand-graphite dark:text-brand-bone">
+                    City Bell
+                  </span>
+                </div>
               </div>
               
               <h1 className="text-[clamp(42px,7vw,88px)] leading-[1.05] tracking-[-0.02em] font-light text-brand-graphite dark:text-brand-bone mb-8 max-w-[920px]">
