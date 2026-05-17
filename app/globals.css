@@ -3,7 +3,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-brand-graphite: #2B2D2F;
+  --color-brand-graphite: #1F1F1F;
   --color-brand-black: #111111;
   --color-brand-copper: #C38A5A;
   --color-brand-bone: #F5F2ED;

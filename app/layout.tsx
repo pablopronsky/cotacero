@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="es" className={`${montserrat.variable} scroll-smooth scroll-pt-24`} suppressHydrationWarning>
-      <body className="antialiased font-sans bg-brand-bone text-brand-graphite dark:bg-brand-black dark:text-brand-bone transition-colors duration-300" suppressHydrationWarning>
+      <body className="antialiased font-sans bg-brand-bone text-brand-graphite dark:bg-[#2b2d2f] dark:text-brand-bone transition-colors duration-300" suppressHydrationWarning>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
         </ThemeProvider>
