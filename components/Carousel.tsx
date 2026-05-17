@@ -5,13 +5,13 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { contactData } from '@/data/contact';
 
 const slides = [
-  { id: 1, title: 'Terminación Superior', desc: 'Instalación impecable', img: '/Terminacion%20superior.png' },
-  { id: 2, title: 'Piso de Madera', desc: 'Acabado cálido y natural', img: '/piso%20de%20madera.png' },
-  { id: 3, title: 'Piso Laminado', desc: 'Alta durabilidad', img: '/piso%20laminado.png' },
-  { id: 4, title: 'Piso Dryback', desc: 'Base perfecta para alto tránsito', img: '/Piso%20dryback.png' },
-  { id: 5, title: 'Deck WPC Cálido', desc: 'Para exteriores premium', img: '/deck%20wpc%20calido.png' },
-  { id: 6, title: 'Deck WPC Oscuro / Frío', desc: 'Elegancia en exterior', img: '/deck%20wpc%20opcion%20oscura%20y%20fria.png' },
-  { id: 7, title: 'Revestimiento Exterior', desc: 'Protección y diseño visual', img: '/revestimiento%20exterior.png' },
+  { id: 1, title: 'Terminación Superior', desc: 'Instalación impecable', img: '/Terminacion-superior.png' },
+  { id: 2, title: 'Piso de Madera', desc: 'Acabado cálido y natural', img: '/piso-de-madera.png' },
+  { id: 3, title: 'Piso Laminado', desc: 'Alta durabilidad', img: '/Piso-laminado.png' },
+  { id: 4, title: 'Piso Dryback', desc: 'Base perfecta para alto tránsito', img: '/Piso-dryback.png' },
+  { id: 5, title: 'Deck WPC Cálido', desc: 'Para exteriores premium', img: '/deck-wpc-calido.png' },
+  { id: 6, title: 'Deck WPC Oscuro / Frío', desc: 'Elegancia en exterior', img: '/deck-wpc-opcion-oscura-y-fria.png' },
+  { id: 7, title: 'Revestimiento Exterior', desc: 'Protección y diseño visual', img: '/Revestimiento-exterior.png' },
 ];
 
 export function Carousel() {
