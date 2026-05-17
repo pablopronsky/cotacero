@@ -3,27 +3,27 @@ import Image from 'next/image';
 const cases = [
   {
     id: 1,
-    material: 'Instalación profesional',
-    ambiente: 'Obra en proceso',
-    trabajo: 'Control y precisión',
-    resultado: 'Calidad asegurada',
-    img: 'https://picsum.photos/seed/obra-instalacion/1200/800'
+    material: 'Piso Dryback',
+    ambiente: 'Comercial de alto tránsito',
+    trabajo: 'Nivelación y pegado profesional',
+    resultado: 'Base firme e inamovible',
+    img: '/Piso dryback.png'
   },
   {
     id: 2,
-    material: 'Visita técnica',
-    ambiente: 'Diagnóstico en sitio',
-    trabajo: 'Nivelación de base',
-    resultado: 'Método riguroso',
-    img: 'https://picsum.photos/seed/obra-tecnica/1200/800'
+    material: 'Deck Exterior',
+    ambiente: 'Terraza perimetral',
+    trabajo: 'Estructuración y fijación oculta',
+    resultado: 'Resistencia a la intemperie',
+    img: '/deck wpc opcion oscura y fria.png'
   },
   {
     id: 3,
-    material: 'Detalle de terminación',
-    ambiente: 'Encuentros',
-    trabajo: 'Zócalos y perfiles',
-    resultado: 'Acabado premium',
-    img: 'https://picsum.photos/seed/obra-detalle/1200/800'
+    material: 'Piso Laminado',
+    ambiente: 'Interior residencial',
+    trabajo: 'Colocación flotante y zócalos',
+    resultado: 'Acabado cálido y continuo',
+    img: '/piso laminado.png'
   }
 ];
 

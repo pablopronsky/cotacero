@@ -32,10 +32,10 @@ export function WoodRestoration() {
             </div>
             <div className="relative aspect-[4/3] w-full overflow-hidden bg-brand-graphite/5 dark:bg-brand-bone/5">
               <Image 
-                src="https://picsum.photos/seed/wood-before/1200/900" 
+                src="/piso de madera.png" 
                 alt="Piso de madera percudido antes de restaurar" 
                 fill 
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
+                className="object-cover transition-transform duration-700 group-hover:scale-105 grayscale sepia-[.4] contrast-75 brightness-75"
                 referrerPolicy="no-referrer"
               />
             </div>
@@ -52,7 +52,7 @@ export function WoodRestoration() {
             </div>
             <div className="relative aspect-[4/3] w-full overflow-hidden bg-brand-graphite/5 dark:bg-brand-bone/5">
               <Image 
-                src="https://picsum.photos/seed/wood-after/1200/900" 
+                src="/piso de madera.png" 
                 alt="Piso de madera restaurado por Cota Cero" 
                 fill 
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
